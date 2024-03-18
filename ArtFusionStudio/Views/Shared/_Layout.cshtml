@@ -1,0 +1,236 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ArtFusStudio · @ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="~/css/GlobalHeader/Select.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/GlobalHeader/View.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ArtFusionStudio.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/StarReview.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+
+    <link rel="stylesheet" href="~/css/HomePage/Special.css" asp-append-version="true" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" rel="stylesheet" />
+</head>
+<body class="page-overview">
+    <div class="app__bg">
+        <div class="app__bg__image current--image">
+            <img src="~/images/HomePage/Special/Background/space2.png" alt="" />
+        </div>
+        <div class="app__bg__image next--image">
+            <img src="~/images/HomePage/Special/Background/space.png" alt="" />
+        </div>
+        <div class="app__bg__image previous--image">
+            <img src="~/images/HomePage/Special/Background/space3.png" alt="" />
+        </div>
+    </div>
+    <header>
+        <div class="globalHeader">
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow">
+           
+            <div class="header-info">
+                <div class="info-top info-left">
+                    <a href="/">
+                        <img src="~/images/Logo/afs-logo2.png" alt="ArtFusStudio" title="ArtFusStudio" class="logo-image">
+                    </a>
+                </div>
+                <div class="info-top info-middle">
+                    <ul class="top-menu inline-list dropping-list">
+                        <li class="information">
+                            <a class="info-button" asp-area="Customer" asp-controller="Home" asp-action="information">
+                                <span class="top-menu-link" id="support">Помощ  𝅏</span>
+                            </a>
+                            <ul class="dropped-menu column-list">
+                                <li class="phone">
+                                    <a href="tel:08842" class="info-button">
+                                        <span class="top-menu-link">088 42</span>
+                                    </a>
+                                </li>
+                                <li class="email">
+                                    <a href="javascript:Journal.openPopup('1')" class="info-button">
+                                        <span class="top-menu-link">contact@artfusstudio.com</span>
+                                    </a>
+                                </li>
+                                <li class="faq">
+                                    <a class="info-button" asp-area="" asp-controller="Home" asp-action="faq">
+                                        <span class="top-menu-link">FAQ</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="saved">
+                            <a class="info-button" asp-area="" asp-controller="Home" asp-action="saved">
+                                <span class="top-menu-link" id="saved">🖤  𝅏</span>
+                            </a>
+                        </li>
+                        <li class="promotions">
+                            <a class="info-button" asp-area="" asp-controller="Home" asp-action="promotions">
+                                <span class="top-menu-link" id="promotions">ПРОМОЦИИ  𝅏</span>
+                            </a>
+                        </li>
+                        <li class="admin-dashboard">
+                            <a class="info-button" asp-area="Admin" asp-controller="Admin" asp-action="index">
+                                <span class="top-menu-link" id="support">Администратор  𝅏</span>
+                            </a>
+                            <ul class="dropped-menu column-list">
+                                <li class="users">
+                                    <a class="info-button" asp-area="Admin" asp-controller="user" asp-action="index">
+                                        <span class="top-menu-link">Потребители</span>
+                                    </a>
+                                </li>
+                                <li class="categories">
+                                    <a class="info-button" asp-area="Admin" asp-controller="category" asp-action="index">
+                                        <span class="top-menu-link">Категории</span>
+                                    </a>
+                                </li>
+                                <li class="brands">
+                                    <a class="info-button" asp-area="Admin" asp-controller="brand" asp-action="index">
+                                        <span class="top-menu-link">Марки</span>
+                                    </a>
+                                </li>
+                                <li class="products dropdown-submenu">
+                                    <a class="info-button" asp-area="Admin" asp-controller="product" asp-action="index">
+                                        <span class="top-menu-link">Продукти</span>
+                                    </a>
+                                    <ul class="dropped-submenu">
+                                        @foreach (var item in (IEnumerable<ArtFusionStudio.Models.Category>)ViewData["Category"] ?? Enumerable.Empty<ArtFusionStudio.Models.Category>())
+                                        {
+                                            <li class="product" id="@item.Name">
+                                                <a class="info-button" asp-area="Admin" asp-controller="Product" asp-action="@item.Name">
+                                                    <span class="top-menu-link">@item.Name</span>
+                                                </a>
+                                            </li>
+                                        }
+                                    </ul>
+                                </li>
+                                <li class="product-features">
+                                    <a class="info-button" asp-area="" asp-controller="Home" asp-action="faq">
+                                        <span class="top-menu-link">Характеристики на продукта</span>
+                                    </a>
+                                </li>
+                                <li class="faq">
+                                    <a class="info-button" asp-area="" asp-controller="Home" asp-action="faq">
+                                        <span class="top-menu-link">FAQ</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="info-top info-right">
+                    <ul class="top-menu interface">
+                        <li class="btn-language">
+                            <div id="google_translate_element" class="translator"></div>
+                        </li>
+                        <li class="welcome-msg">
+                            @if (User.Identity.IsAuthenticated) @* user.logged *@
+                            {
+                                <p class="welcome-msg-pattern">Здравей,<br>@User.Identity?.Name</p>
+                            }
+                            else
+                            {
+                                <p class="welcome-msg-pattern">Здравей, впиши се</p>
+                            }
+                        </li>
+                        <li class="user-icon">
+                            @if (User.Identity.IsAuthenticated) @* user.logged AND has pfp *@ {
+                                <a class="user-pfp" asp-area="" asp-controller="Home" asp-action="username">
+                                    <img src="~/images/HomePage/Head/example-pfp.jpg" alt="Profile picture" title="Profile picture" class="profile-picture">
+                                </a>
+                            }
+
+                            else
+                            {
+                                <a class="user-pfp" asp-area="" asp-controller="Home" asp-action="saved">
+                                    <img src="~/images/HomePage/Head/default-pfp.jpg" alt="default" title="default" class="profile-picture">
+                                </a>
+                            }
+                        </li>
+                        <li class="shopping-cart">
+                            <div class="cart">
+                                <a class="shopping-button" asp-area="" asp-controller="Home" asp-action="shopping-cart">
+                                    <span class="btn--shopping-cart">🛒</span>
+                                </a>
+                                <p class="cart-items-quantity">17 предмета<br />420.69лв.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        <nav>
+    </div>
+        <nav id="ac-localnav" class="sticky-nav">
+            <div class="select">
+                <div class="search-engine stocks-preview" id="input">
+                    <span class="search-icon">🔎</span>
+                    <input class="search-input" type="search" name="search-box" value=""
+                           placeholder="Търси артикула по бранд, цвят...">
+                    <div class="autocomplete2-suggestions"></div>
+                </div>
+                <div class="items">
+                    <ul class="categories inline-list">
+                        <li class="category" id="home">
+                            <a class="category-path" href="/">
+                                <span class="item-category">🏠</span>
+                            </a>
+                        </li>
+                        @foreach (var item in (IEnumerable<ArtFusionStudio.Models.Brand>)ViewData["Brand"] ?? Enumerable.Empty<ArtFusionStudio.Models.Brand>())
+                        {
+                            <li class="category" id="@item.Name">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="3vh" viewBox="0 0 24 24">
+                                    <path fill="#000000" d="@item.PathD"></path>
+                                </svg>
+                                <a class="category-path" asp-area="" asp-controller="brands" asp-action="@item.Name">
+                                    <span class="item-category">  @item.Name</span>
+                                </a>
+                            </li>
+                        }
+                        <li class="category" id="all">
+                            <a class="category-path" href="others.cshtml">
+                                <span class="item-category">ВСИЧКИ</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    @* <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - ArtFusionStudio - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer> *@
+
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'bg' }, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+
+    @* Spinning phones *@
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js"></script>
+
+    <script src="~/js/HomePage/OffersCards.js" asp-append-version="true"></script>
+    <script src="~/js/HomePage/HeartAnimation.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

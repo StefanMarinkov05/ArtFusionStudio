@@ -1,0 +1,70 @@
+D:\ArtFusionStudio\ArtFusionStudio.Models\bin\Debug\net8.0\ArtFusionStudio.Models.deps.json
+D:\ArtFusionStudio\ArtFusionStudio.Models\bin\Debug\net8.0\ArtFusionStudio.Models.dll
+D:\ArtFusionStudio\ArtFusionStudio.Models\bin\Debug\net8.0\ArtFusionStudio.Models.pdb
+D:\ArtFusionStudio\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\ArtFusionStudio\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.AssemblyInfoInputs.cache
+D:\ArtFusionStudio\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.AssemblyInfo.cs
+D:\ArtFusionStudio\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.csproj.CoreCompileInputs.cache
+D:\ArtFusionStudio\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.sourcelink.json
+D:\ArtFusionStudio\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.dll
+D:\ArtFusionStudio\ArtFusionStudio.Models\obj\Debug\net8.0\refint\ArtFusionStudio.Models.dll
+D:\ArtFusionStudio\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.pdb
+D:\ArtFusionStudio\ArtFusionStudio.Models\obj\Debug\net8.0\ref\ArtFusionStudio.Models.dll
+C:\Users\USER\one\Desktop\VirusNE_TRII\ArtFusionStudio.Models\bin\Debug\net8.0\ArtFusionStudio.Models.deps.json
+C:\Users\USER\one\Desktop\VirusNE_TRII\ArtFusionStudio.Models\bin\Debug\net8.0\ArtFusionStudio.Models.dll
+C:\Users\USER\one\Desktop\VirusNE_TRII\ArtFusionStudio.Models\bin\Debug\net8.0\ArtFusionStudio.Models.pdb
+C:\Users\USER\one\Desktop\VirusNE_TRII\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\one\Desktop\VirusNE_TRII\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.AssemblyInfoInputs.cache
+C:\Users\USER\one\Desktop\VirusNE_TRII\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.AssemblyInfo.cs
+C:\Users\USER\one\Desktop\VirusNE_TRII\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.csproj.CoreCompileInputs.cache
+C:\Users\USER\one\Desktop\VirusNE_TRII\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.dll
+C:\Users\USER\one\Desktop\VirusNE_TRII\ArtFusionStudio.Models\obj\Debug\net8.0\refint\ArtFusionStudio.Models.dll
+C:\Users\USER\one\Desktop\VirusNE_TRII\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.pdb
+C:\Users\USER\one\Desktop\VirusNE_TRII\ArtFusionStudio.Models\obj\Debug\net8.0\ref\ArtFusionStudio.Models.dll
+C:\Users\AXN\Downloads\AFS-Bulky\AFS-Bulky\ArtFusionStudio.Models\bin\Debug\net8.0\ArtFusionStudio.Models.deps.json
+C:\Users\AXN\Downloads\AFS-Bulky\AFS-Bulky\ArtFusionStudio.Models\bin\Debug\net8.0\ArtFusionStudio.Models.dll
+C:\Users\AXN\Downloads\AFS-Bulky\AFS-Bulky\ArtFusionStudio.Models\bin\Debug\net8.0\ArtFusionStudio.Models.pdb
+C:\Users\AXN\Downloads\AFS-Bulky\AFS-Bulky\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AXN\Downloads\AFS-Bulky\AFS-Bulky\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.AssemblyInfoInputs.cache
+C:\Users\AXN\Downloads\AFS-Bulky\AFS-Bulky\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.AssemblyInfo.cs
+C:\Users\AXN\Downloads\AFS-Bulky\AFS-Bulky\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.csproj.CoreCompileInputs.cache
+C:\Users\AXN\Downloads\AFS-Bulky\AFS-Bulky\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.dll
+C:\Users\AXN\Downloads\AFS-Bulky\AFS-Bulky\ArtFusionStudio.Models\obj\Debug\net8.0\refint\ArtFusionStudio.Models.dll
+C:\Users\AXN\Downloads\AFS-Bulky\AFS-Bulky\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.pdb
+C:\Users\AXN\Downloads\AFS-Bulky\AFS-Bulky\ArtFusionStudio.Models\obj\Debug\net8.0\ref\ArtFusionStudio.Models.dll
+C:\Users\USER\one\Desktop\DiplomenMalkaDB\ArtFusionStudio.Models\bin\Debug\net8.0\ArtFusionStudio.Models.deps.json
+C:\Users\USER\one\Desktop\DiplomenMalkaDB\ArtFusionStudio.Models\bin\Debug\net8.0\ArtFusionStudio.Models.dll
+C:\Users\USER\one\Desktop\DiplomenMalkaDB\ArtFusionStudio.Models\bin\Debug\net8.0\ArtFusionStudio.Models.pdb
+C:\Users\USER\one\Desktop\DiplomenMalkaDB\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\one\Desktop\DiplomenMalkaDB\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.AssemblyInfoInputs.cache
+C:\Users\USER\one\Desktop\DiplomenMalkaDB\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.AssemblyInfo.cs
+C:\Users\USER\one\Desktop\DiplomenMalkaDB\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.csproj.CoreCompileInputs.cache
+C:\Users\USER\one\Desktop\DiplomenMalkaDB\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.dll
+C:\Users\USER\one\Desktop\DiplomenMalkaDB\ArtFusionStudio.Models\obj\Debug\net8.0\refint\ArtFusionStudio.Models.dll
+C:\Users\USER\one\Desktop\DiplomenMalkaDB\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.pdb
+C:\Users\USER\one\Desktop\DiplomenMalkaDB\ArtFusionStudio.Models\obj\Debug\net8.0\ref\ArtFusionStudio.Models.dll
+C:\Users\USER\one\Desktop\DiplomenMalkaDB\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.csproj.AssemblyReference.cache
+C:\Users\AXN\Dropbox\My PC (DESKTOP-V44MIJA)\Desktop\Project\ArtFusionStudio.Models\bin\Debug\net8.0\ArtFusionStudio.Models.deps.json
+C:\Users\AXN\Dropbox\My PC (DESKTOP-V44MIJA)\Desktop\Project\ArtFusionStudio.Models\bin\Debug\net8.0\ArtFusionStudio.Models.dll
+C:\Users\AXN\Dropbox\My PC (DESKTOP-V44MIJA)\Desktop\Project\ArtFusionStudio.Models\bin\Debug\net8.0\ArtFusionStudio.Models.pdb
+C:\Users\AXN\Dropbox\My PC (DESKTOP-V44MIJA)\Desktop\Project\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.csproj.AssemblyReference.cache
+C:\Users\AXN\Dropbox\My PC (DESKTOP-V44MIJA)\Desktop\Project\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AXN\Dropbox\My PC (DESKTOP-V44MIJA)\Desktop\Project\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.AssemblyInfoInputs.cache
+C:\Users\AXN\Dropbox\My PC (DESKTOP-V44MIJA)\Desktop\Project\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.AssemblyInfo.cs
+C:\Users\AXN\Dropbox\My PC (DESKTOP-V44MIJA)\Desktop\Project\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.csproj.CoreCompileInputs.cache
+C:\Users\AXN\Dropbox\My PC (DESKTOP-V44MIJA)\Desktop\Project\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.dll
+C:\Users\AXN\Dropbox\My PC (DESKTOP-V44MIJA)\Desktop\Project\ArtFusionStudio.Models\obj\Debug\net8.0\refint\ArtFusionStudio.Models.dll
+C:\Users\AXN\Dropbox\My PC (DESKTOP-V44MIJA)\Desktop\Project\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.pdb
+C:\Users\AXN\Dropbox\My PC (DESKTOP-V44MIJA)\Desktop\Project\ArtFusionStudio.Models\obj\Debug\net8.0\ref\ArtFusionStudio.Models.dll
+C:\Users\stu\Desktop\project\ArtFusionStudio.Models\bin\Debug\net8.0\ArtFusionStudio.Models.deps.json
+C:\Users\stu\Desktop\project\ArtFusionStudio.Models\bin\Debug\net8.0\ArtFusionStudio.Models.dll
+C:\Users\stu\Desktop\project\ArtFusionStudio.Models\bin\Debug\net8.0\ArtFusionStudio.Models.pdb
+C:\Users\stu\Desktop\project\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.csproj.AssemblyReference.cache
+C:\Users\stu\Desktop\project\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stu\Desktop\project\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.AssemblyInfoInputs.cache
+C:\Users\stu\Desktop\project\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.AssemblyInfo.cs
+C:\Users\stu\Desktop\project\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.csproj.CoreCompileInputs.cache
+C:\Users\stu\Desktop\project\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.dll
+C:\Users\stu\Desktop\project\ArtFusionStudio.Models\obj\Debug\net8.0\refint\ArtFusionStudio.Models.dll
+C:\Users\stu\Desktop\project\ArtFusionStudio.Models\obj\Debug\net8.0\ArtFusionStudio.Models.pdb
+C:\Users\stu\Desktop\project\ArtFusionStudio.Models\obj\Debug\net8.0\ref\ArtFusionStudio.Models.dll

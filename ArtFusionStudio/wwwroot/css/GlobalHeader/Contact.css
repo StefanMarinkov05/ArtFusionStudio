@@ -1,0 +1,86 @@
+﻿
+
+
+/*
+    ICONS
+    ☏ ⛟ ✉ ？ 🛒 🔎 = \e697
+    ☎ 🚚 💬 ❓
+    🏠 ⌕ 
+    💬 🖤 👉 🛒
+*/
+
+
+/*Second design */
+/*.contact {
+    height: 42px;
+    background-color: #354875;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-left {
+    display: flex;
+    width: 50%;
+    text-align: left;
+}
+
+.contact-right {
+    display: flex;
+    width: 50%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.inline-list {
+    display: flex;
+    justify-content: center;
+}
+
+#info {
+    padding-left: 1rem;
+}
+
+#account {
+    display: flex;
+}
+
+.top-menu li, .inline-list li {
+    list-style-type: none;
+}
+
+    .top-menu li:before {
+        margin-right: 5px;
+        font-size: 15px;
+    }
+
+.phone:before {
+    content: "☎";
+}
+
+.delivery:before {
+    content: "🚚";
+}
+
+.email:before {
+    content: "📩";
+}
+
+.faq:before {
+    content: "❓";
+}
+
+.info-button, .account-button {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    margin: 0 42px 0 0;
+}
+
+    .info-button:hover {
+        color: #34E86A;
+        text-decoration: underline red;
+    }*/

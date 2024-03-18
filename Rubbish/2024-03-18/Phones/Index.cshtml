@@ -1,0 +1,113 @@
+﻿@model IEnumerable<ArtFusionStudio.Models.Phone>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.DisplayTechnologyId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MemoryId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StorageCapacityId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Camera)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DisplayTechnology)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Memory)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StorageCapacity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.USB)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OSNameAndVersion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Category)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Brand)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ratings)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.DisplayTechnologyId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MemoryId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StorageCapacityId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Camera.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DisplayTechnology.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Memory.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StorageCapacity.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.USB.Type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OSNameAndVersion.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Brand.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Ratings.Review)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

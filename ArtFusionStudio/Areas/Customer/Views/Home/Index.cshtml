@@ -1,0 +1,171 @@
+﻿@{
+    ViewData["Title"] = "Начална страница";
+}
+@* <div class="app__bg">
+    <div class="app__bg__image current--image">
+        <img src="~/images/HomePage/Special/Background/space2.png" alt="" />
+    </div>
+    <div class="app__bg__image next--image">
+        <img src="~/images/HomePage/Special/Background/space.png" alt="" />
+    </div>
+    <div class="app__bg__image previous--image">
+        <img src="~/images/HomePage/Special/Background/space3.png" alt="" />
+    </div>
+</div> *@
+
+<div class="app" id="special-offers">
+    <div class="cardList">
+        <button class="cardList__btn btn btn--left">
+            <div class="icon">
+                <svg>
+                    <use xlink:href="#arrow-left"></use>
+                </svg>
+            </div>
+        </button>
+
+        <div class="cards__wrapper">
+            <div class="card current--card">
+                <div class="card__image">
+                    <img src="~/images/HomePage/Special/Article/nokia-g42.png" class="show-phone phone-1" alt="" />
+                </div>
+            </div>
+
+            <div class="card next--card">
+                <div class="card__image">
+                    <img src="~/images/HomePage/Special/Article/iphone-15-pro.png" class="show-phone phone-2" alt="" />
+                </div>
+            </div>
+
+
+            <div class="card previous--card">
+                <div class="card__image">
+                    <img src="~/images/HomePage/Special/Article/samsung-s24.png" class="show-phone phone-3" alt="" />
+                </div>
+            </div>
+        </div>
+
+        <button class="cardList__btn btn btn--right">
+            <div class="icon">
+                <svg>
+                    <use xlink:href="#arrow-right"></use>
+                </svg>
+            </div>
+        </button>
+    </div>
+
+    @*
+    Create variable a = DB -> Reviews -> {iphone15, samsung24, nokia42}
+    Add a as an argument <i class="text star-review" data-star="a"></i><br/>
+    *@
+
+
+    <div class="infoList">
+        <div class="info__wrapper">
+            <div class="info current--info">
+                <div class="text review-box">
+                    <i class="text star-review" data-star="4.4"></i><br />
+                    @* <a href="/" class="text count-reviews">256 оценки</a> *@
+                </div>
+                <div class="text HeartAnimation">
+                    <button class="heart"></button>
+                </div>
+                <h1 class="text name">NOKIA</h1>
+                <h4 class="text version">G42</h4>
+                <p class="text description">
+                    Оригиналната
+                    <span style="font-weight:bold;">здравина</span>
+                    <br />се завръща!
+                </p>
+                <div class="text shopping">
+                    <div class="text buttons">
+                        <p class="text quantity"> В наличност: 15 </p>
+                        <div class="text btn--action">
+                            <button class="text details">Разгледай</button>
+                            <button class="text add-to-cart">Добави в кошницата</button>
+                        </div>
+                    </div>
+                    <div class="text price">
+                        <p class="text old-price">600лв.</p>
+                        <p class="text new-price">499лв.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info next--info">
+                <div class="text review-box">
+                    <i class="text star-review" data-star="4.9"></i><br />
+                    @* <a href="/" class="text count-reviews">420 оценки</a> *@
+                </div>
+                <div class="text HeartAnimation">
+                    <button class="heart"></button>
+                </div>
+                <h1 class="text name">IPHONE</h1>
+                <h4 class="text version">15 PRO</h4>
+                <p class="text description">
+                    Вече има нещо, по-
+                    <span><b>твърдо</b></span><br /> от легендарната
+                    <span style="font-size:10px;">Nokia 3320</span>!
+                </p>
+                <div class="text shopping">
+                    <div class="text buttons">
+                        <p class="text quantity"> В наличност: 15 </p>
+                        <div class="text btn--action">
+                            <button class="text details" @*onclick="moveAndRedirect()"*@>Разгледай</button>
+                            <button class="text add-to-cart">Добави в кошницата</button>
+                        </div>
+                    </div>
+                    <div class="text price">
+                        <p class="text old-price">3000лв.</p>
+                        <p class="text new-price">2699лв.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info previous--info">
+                <div class="text review-box">
+                    <i class="text star-review" data-star="4.7"></i><br />
+                    @* <a href="/" class="text count-reviews">69 оценки</a> *@
+                </div>
+                <div class="text HeartAnimation">
+                    <button class="heart"></button>
+                    @*<a href="@Url.Action("your action", "your controller", new { id = 1 }) class="text btn btn-success btn-xs">❤️</a>*@
+                </div>
+                <h1 class="text name">SAMSUNG</h1>
+                <h4 class="text version">S24</h4>
+                <p class="text description">
+                    Вече и с <b>изкуствен <br /> интелект</b>!
+                </p>
+                <div class="text shopping">
+                    <div class="text buttons">
+                        <p class="text quantity"> В наличност: 15 </p>
+                        <div class="text btn--action">
+                            <button class="text details">Разгледай</button>
+                            <button class="text add-to-cart">Добави в кошницата</button>
+                        </div>
+                    </div>
+                    <div class="text price">
+                        <p class="text old-price">1150лв.</p>
+                        <p class="text new-price">999лв.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="loading__wrapper">
+    <div class="loader--text">Loading...</div>
+    <div class="loader">
+        <span></span>
+    </div>
+</div>
+
+<svg class="icons" style="display: none;">
+    @* Arrows' icons *@
+    <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+        <polyline points='328 112 184 256 328 400' style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+    </symbol>
+    <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+        <polyline points='184 112 328 256 184 400' style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+    </symbol>
+</svg>
